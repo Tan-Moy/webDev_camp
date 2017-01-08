@@ -1,7 +1,7 @@
 function factorial(x){
 
 for (i=x; i>0; i--){
-    x= x*i;
+    x*=i;
 }
 return console.log(x);
 }
