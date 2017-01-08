@@ -1,6 +1,6 @@
 function factorial(x){
 
-for (i=x; i>0; i--){
+for (i= x-1; i>0; i--){
     x*=i;
 }
 return console.log(x);
