@@ -1,7 +1,10 @@
 function factorial(x){
 
-for (i=x; i<0; i--){
-    x*=i;
+for (i=x; i>0; i--){
+    x= x*i;
 }
-return x;
+return console.log(x);
 }
+
+var userInput = prompt("Give me a number");
+factorial(userInput)
