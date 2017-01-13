@@ -18,7 +18,6 @@ for (var i = 0; i < modeButtons.length; i++) {
     });
 }
 
-
 colorDisplay.textContent = pickedColor;
 
 resetButton.addEventListener("click", function () {
